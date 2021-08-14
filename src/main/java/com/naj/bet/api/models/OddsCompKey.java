@@ -23,6 +23,30 @@ public class OddsCompKey implements Serializable {
         this.userId = userId;
     }
 
+    public long getBetId() {
+        return betId;
+    }
+
+    public void setBetId(long betId) {
+        this.betId = betId;
+    }
+
+    public String getOdds() {
+        return odds;
+    }
+
+    public void setOdds(String odds) {
+        this.odds = odds;
+    }
+
+    public String getUserId() {
+        return userId;
+    }
+
+    public void setUserId(String userId) {
+        this.userId = userId;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

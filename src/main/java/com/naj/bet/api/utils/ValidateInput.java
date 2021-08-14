@@ -1,4 +1,4 @@
-package com.naj.bet.api.service;
+package com.naj.bet.api.utils;
 
 import com.naj.bet.api.models.Odds;
 import org.springframework.stereotype.Service;
